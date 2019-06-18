@@ -1,4 +1,4 @@
-.PHONY: test build-test-container build push
+.PHONY: build push
 
 IMAGE_NAME := quay.io/app-sre/jjb
 IMAGE_TAG := $(shell git rev-parse --short=7 HEAD)
